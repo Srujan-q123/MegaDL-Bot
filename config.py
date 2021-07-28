@@ -28,9 +28,9 @@ class TEXT:
 
 🧑‍💻 **Maintainer:** {bot_owner}
 
-👥 **Support Group:** [SafoTheBot](https://t.me/DailyepRk4)
+👥 **Credits:** @iamsafon
 
-📢 **Updates Channel:** [Ｓ１ ＢＯＴＳ](https://t.me/DailyepRk4)
+📢 **Contact:** [Here](https://t.me/sruja_12)
 """
 
   HELP_USER = """
