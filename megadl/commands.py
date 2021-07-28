@@ -26,7 +26,7 @@ async def help(bot, message, cb=False):
         InlineKeyboardButton(f'⌛️ STATUS', url=f'https://t.me/{Config.LOG_CHANNEL_UNAME}'),
         InlineKeyboardButton(f'CLOSE 🔐', callback_data='close')
         ],[
-        InlineKeyboardButton(f'📦 SOURCE CODE 📦', url='https://github.com/AsmSafone/MegaDL-Bot')
+        InlineKeyboardButton(f'📦 Help 📦', url='https://t.me/sruja_12
     ]]
     reply_markup = InlineKeyboardMarkup(button)
     if cb:
