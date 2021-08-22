@@ -26,7 +26,7 @@ async def help(bot, message, cb=False):
         InlineKeyboardButton(f'⌛️ STATUS', url=f'https://t.me/{Config.LOG_CHANNEL_UNAME}'),
         InlineKeyboardButton(f'CLOSE 🔐', callback_data='close')
         ],[
-        InlineKeyboardButton(f'📦 Help 📦', url='https://t.me/sruja_12
+        InlineKeyboardButton(f'📦 Help 📦', url='https://t.me/sruja_12')
     ]]
     reply_markup = InlineKeyboardMarkup(button)
     if cb:
@@ -89,7 +89,7 @@ async def about(bot, message, cb=False):
         InlineKeyboardButton(f'⌛️ STATUS', url=f'https://t.me/{Config.LOG_CHANNEL_UNAME}'),
         InlineKeyboardButton(f'CLOSE 🔐', callback_data="close")
         ],[
-        InlineKeyboardButton(f'📦 SOURCE CODE 📦', url='https://github.com/AsmSafone/MegaDL-Bot')
+        InlineKeyboardButton(f'📦 SOURCE CODE 📦', url='https://t.me/source_code_of_file_store_bot/2')
     ]]
     reply_markup = InlineKeyboardMarkup(button)
     if cb:
@@ -162,7 +162,7 @@ async def refreshmeh_cb(bot, message):
             return
         except Exception:
             await message.message.edit(
-                text="Something Went Wrong. Contact My [Support Group](https://t.me/safothebot).",
+                text="Something Went Wrong. Contact My [Dev](https://t.me/sruja_12).",
                 parse_mode="markdown",
                 disable_web_page_preview=True
             )
